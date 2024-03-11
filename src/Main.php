@@ -7,6 +7,6 @@ class Main
 {
     static function greet(string $name): void
     {
-        echo "Hello $name!" . PHP_EOL;
+        echo "Hello $name!";
     }
 }
