@@ -1,4 +1,7 @@
 {
+    "name": "maurocurti/github-actions",
+    "description" : "Solo testando",
+    "license": "proprietary",
     "require-dev": {
         "phpunit/phpunit": "^10.5"
     },
