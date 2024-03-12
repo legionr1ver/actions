@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   build:
+    name: Test PHP codebase
 
     runs-on: ubuntu-latest
 
