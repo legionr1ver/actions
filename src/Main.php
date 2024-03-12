@@ -12,6 +12,6 @@ class Main
 
     static function bye(string $name): void
     {
-        echo "Bye $name!";
+        echo "Bye $name...";
     }
 }
