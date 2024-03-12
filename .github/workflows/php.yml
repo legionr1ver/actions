@@ -1,4 +1,4 @@
-name: PHP Composer
+name: PHP Code testing
 
 on:
   push:
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build:
-    name: Test PHP codebase
+    name: Build and test
 
     runs-on: ubuntu-latest
 
@@ -32,9 +32,6 @@ jobs:
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
-
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Run test suite
       run: composer run-script test
