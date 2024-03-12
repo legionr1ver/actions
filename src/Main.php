@@ -9,4 +9,9 @@ class Main
     {
         echo "Hello $name!";
     }
+
+    static function bye(string $name): void
+    {
+        echo "Bye $name!";
+    }
 }
