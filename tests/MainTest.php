@@ -13,4 +13,11 @@ final class MainTest extends TestCase
 
         Main::greet('Mauro');
     }
+
+    public function test_bye(): void
+    {
+        $this->expectOutputString('Bye Mauro...');
+
+        Main::bye('Mauro');
+    }
 }
