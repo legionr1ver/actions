@@ -2,15 +2,31 @@
 
 namespace App;
 
-
+/**
+ * The main funcion?
+ */
 class Main
 {
-    static function greet(string $name): void
+    /**
+     * Saluda
+     *
+     * @param string $name ñlkjñlkj
+     *
+     * @return void
+     */
+    public static function greet(string $name): void
     {
         echo "Hello $name!";
     }
 
-    static function bye(string $name): void
+    /**
+     * Se vaaa
+     *
+     * @param string $name ñlkjñlkj
+     *
+     * @return void
+     */
+    public static function bye(string $name): void
     {
         echo "Bye $name!";
     }
