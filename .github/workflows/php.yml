@@ -35,3 +35,6 @@ jobs:
 
     - name: Run test suite
       run: composer run-script test
+
+    - name: Run PHP CodeSniffer
+      run: composer run-script phpcs
