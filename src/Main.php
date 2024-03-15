@@ -8,9 +8,6 @@ namespace App;
 class Main
 {
     /**
-     * Saluda
-     *
-     * @param string $name ñlkjñlkj
      *
      * @return void
      */
