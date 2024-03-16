@@ -9,7 +9,7 @@ class Main
 {
     /**
      *
-     * @return void
+     * @returrrn void
      */
     public static function greet(string $name): void
     {
