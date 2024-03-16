@@ -38,3 +38,6 @@ jobs:
 
     - name: Run PHP CodeSniffer
       run: composer run-script phpcs
+
+    - name: Run PHP Mess Detecdor
+      run: composer run-script phpmd
